@@ -64,6 +64,16 @@ export default function ContactSection() {
                 +639927376929 - +639480523540
               </a>
             </div>
+
+            <div className="p-8 bg-card rounded-xl border border-border hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 flex flex-col items-center text-center">
+              <div className="p-4 bg-primary/10 rounded-lg mb-4">
+                <MapPin className="w-6 h-6 text-primary" />
+              </div>
+              <h3 className="font-bold text-lg mb-2">Location</h3>
+              <p className="text-muted-foreground">
+                Capas, Tarlac
+              </p>
+            </div>
           </div>
 
           {/* Payment methods and social links */}
