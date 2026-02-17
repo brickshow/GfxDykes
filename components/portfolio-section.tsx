@@ -228,7 +228,7 @@ export default function PortfolioSection() {
           if (!open) setSelectedItem(null)
         }}
       >
-        <DialogContent className="max-w-4xl p-6">
+        <DialogContent className="max-w-4xl p-6 max-h-[90vh] overflow-y-auto">
           {selectedItem && (
             <div className="space-y-4">
               <DialogTitle>{selectedItem.title}</DialogTitle>
